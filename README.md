@@ -1,14 +1,19 @@
-# Docker Compose project for Telegraf, InfluxDB and Grafana
+# TIG Docker deployment
 
 <p align="center">
     <img src="./example.png" alt="Image" style="display:block; margin:auto;">
 </p>
 
-TIG is a combination of Telegraf, InfluxDB and Grafana . This is a deployment in docker.
+TIG Stack stand for Telegraf, InfluxDB, and Grafana.
+*InfluxDB* is an open-source time series database written in Go. Optimized for fast, high-availability storage and used as a data store for any use case involving large amounts of time-stamped data, including DevOps monitoring, log data, application metrics and real-time analytics.
+
+*Telegraf* is an agent for collecting, processing, aggregating, and writing metrics. It supports various output plugins such as influxdb, Graphite, Kafka,etc.
+
+*Grafana* is an open source data visualization and monitoring suite. It offers support for Graphite, Elasticsearch, Prometheus, influxdb, and many more databases. The tool provides a beautiful dashboard and metric analytics, with the ability to manage and create your own dashboard for your apps or infrastructure performance monitoring.
 
 ## Pre requisites
 
-- Make sure the latest docker version is installed.
+* Make sure the latest docker version is installed.
 
 
 ## Start the stack with docker compose
@@ -56,5 +61,5 @@ $ docker-compose exec -w /imports influxdb influx -import -path=data.txt -precis
 1. Ceate or [import](https://grafana.com/grafana/dashboards/) your own dashboards.
 2. If your host is not a docker environment Install telegraf from [here](https://docs.influxdata.com/telegraf/v1.21/introduction/installation/).
 
-
 ## License
+GPL
