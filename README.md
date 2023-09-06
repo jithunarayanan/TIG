@@ -59,8 +59,8 @@ $ docker-compose exec -w /imports influxdb influx -import -path=data.txt -precis
 ```
 
 ## Finishing touches
-1. Ceate or [import](https://grafana.com/grafana/dashboards/) your own dashboards.
-2. If your host is not a docker environment Install telegraf from [here](https://docs.influxdata.com/telegraf/v1.21/introduction/installation/).
+* Ceate or [import](https://grafana.com/grafana/dashboards/) your own dashboards.
+* If your host is not a docker environment Install telegraf from [here](https://docs.influxdata.com/telegraf/v1.21/introduction/installation/).
 
 ## License
 GPL
