@@ -5,6 +5,7 @@
 </p>
 
 TIG Stack stand for Telegraf, InfluxDB, and Grafana.
+
 *InfluxDB* is an open-source time series database written in Go. Optimized for fast, high-availability storage and used as a data store for any use case involving large amounts of time-stamped data, including DevOps monitoring, log data, application metrics and real-time analytics.
 
 *Telegraf* is an agent for collecting, processing, aggregating, and writing metrics. It supports various output plugins such as influxdb, Graphite, Kafka,etc.
