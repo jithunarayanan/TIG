@@ -16,7 +16,6 @@ TIG Stack stand for Telegraf, InfluxDB, and Grafana.
 
 * Make sure the latest docker version is installed.
 
-
 ## Start the stack with docker compose
 
 ```bash
